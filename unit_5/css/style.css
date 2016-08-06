@@ -12,16 +12,41 @@ body {
 	text-align: center;
 }
 
-main {
-	padding: 40px;
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 footer {
+	background-color: #FF957E;
 	font-family: 'Merriweather', serif;
 	font-size: 16px;
 	color: white;
-	padding: 40px;
-	background: #3D453D;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 h1 {
@@ -29,14 +54,14 @@ h1 {
 	font-weight: normal;
 	font-family: 'Poppins', sans-serif;
 	font-size: 60px;
-	color: #333333;
+	color: white;
 }
 
 #slogan {
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	padding-bottom: 20px;
-	color: #333333;
+	color: white;
 }
 
 h2 {
