@@ -19,6 +19,7 @@ body {
 
 main {
 	background-color: #F4EFFC;
+	height: 600px;
 }
 
 article {
@@ -41,7 +42,7 @@ hr {
 
 footer {
 	background-color: #535C6E;
-	height: 200px;
+	height: 250px;
 }
 
 nav {
@@ -94,7 +95,7 @@ img {
 
 .services {
 	width: 28%;
-	margin: 2.2%;
+	margin: 2.5%;
 	padding: 10px;
 	border: 1px solid black;
 	float: left;
@@ -148,6 +149,42 @@ img {
 	text-decoration: none;
 	background: #3A7ABA;
 	color: white;
+}
+
+#contact {
+	border: 3px solid #3A7ABA;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	color: #3A7ABA;
+	font-weight: bold;
+}
+
+#contact:hover {
+	text-decoration: none;
+	background: #3A7ABA;
+	color: white;
+}
+
+#footcontact {
+	border: 3px solid white;
+	padding: 10px;
+	margin: 40px 0 0 0;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+#footcontact:hover {
+	text-decoration: none;
+	background: white;
+	color: #3A7ABA;
+}
+
+#message {
+	font-family: "Raleway", sans-serif;
 }
 
 @media only screen and (max-width: 1200px) {
